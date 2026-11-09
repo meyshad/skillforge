@@ -1,0 +1,10 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "READMEs, changelogs, architecture decision records and API documentation.",
+  "author": { "name": "Meyshad", "url": "https://github.com/meyshad" },
+  "homepage": "https://github.com/meyshad/skillforge",
+  "repository": "https://github.com/meyshad/skillforge",
+  "license": "MIT",
+  "keywords": ["documentation", "readme", "changelog", "adr", "openapi"]
+}

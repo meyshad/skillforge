@@ -1,0 +1,30 @@
+name: 💡 Skill request
+description: Propose a new skill or plugin
+labels: ["skill-request"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What task should the agent handle better?
+      description: Describe the situation and what goes wrong today without a skill.
+    validations:
+      required: true
+  - type: textarea
+    id: triggers
+    attributes:
+      label: Example prompts that should trigger it
+      placeholder: |
+        "write a migration for this schema change"
+        "is this migration safe to run in production?"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What should the skill make the agent do?
+      description: Key steps, checks, tools, output format.
+  - type: dropdown
+    id: plugin
+    attributes:
+      label: Plugin
+      options: [dev-workflow, security, docs, devops, frontend, new plugin]

@@ -1,0 +1,43 @@
+{
+  "name": "skillforge",
+  "owner": {
+    "name": "Meyshad",
+    "url": "https://github.com/meyshad"
+  },
+  "metadata": {
+    "description": "Battle-tested Agent Skills for real-world software engineering: workflow, security, docs, DevOps and frontend.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "dev-workflow",
+      "source": "./plugins/dev-workflow",
+      "description": "Commits, pull requests, code review, debugging, TDD and safe refactoring.",
+      "category": "development"
+    },
+    {
+      "name": "security",
+      "source": "./plugins/security",
+      "description": "Security audits, secret scanning and dependency vulnerability triage.",
+      "category": "security"
+    },
+    {
+      "name": "docs",
+      "source": "./plugins/docs",
+      "description": "READMEs, changelogs, architecture decision records and API documentation.",
+      "category": "documentation"
+    },
+    {
+      "name": "devops",
+      "source": "./plugins/devops",
+      "description": "Production Dockerfiles, hardened GitHub Actions and blameless postmortems.",
+      "category": "devops"
+    },
+    {
+      "name": "frontend",
+      "source": "./plugins/frontend",
+      "description": "Accessibility (WCAG 2.2) audits and Core Web Vitals performance tuning.",
+      "category": "frontend"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Accessibility (WCAG 2.2) audits and Core Web Vitals performance tuning.",
+  "author": { "name": "Meyshad", "url": "https://github.com/meyshad" },
+  "homepage": "https://github.com/meyshad/skillforge",
+  "repository": "https://github.com/meyshad/skillforge",
+  "license": "MIT",
+  "keywords": ["accessibility", "a11y", "wcag", "performance", "web-vitals"]
+}

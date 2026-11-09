@@ -1,0 +1,26 @@
+name: 🐛 Bug report
+description: A skill gives bad guidance, triggers wrongly, or a script misbehaves
+labels: ["bug"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill or script
+      placeholder: e.g. secret-scanner / scripts/install.sh
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: Prompt used, command run, relevant output.
+  - type: input
+    id: env
+    attributes:
+      label: Agent, OS and Python version

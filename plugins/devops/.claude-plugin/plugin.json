@@ -1,0 +1,10 @@
+{
+  "name": "devops",
+  "version": "1.0.0",
+  "description": "Production Dockerfiles, hardened GitHub Actions and blameless postmortems.",
+  "author": { "name": "Meyshad", "url": "https://github.com/meyshad" },
+  "homepage": "https://github.com/meyshad/skillforge",
+  "repository": "https://github.com/meyshad/skillforge",
+  "license": "MIT",
+  "keywords": ["docker", "ci", "github-actions", "sre", "incident"]
+}

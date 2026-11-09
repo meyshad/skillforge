@@ -1,0 +1,10 @@
+{
+  "name": "dev-workflow",
+  "version": "1.0.0",
+  "description": "Commits, pull requests, code review, debugging, TDD and safe refactoring.",
+  "author": { "name": "Meyshad", "url": "https://github.com/meyshad" },
+  "homepage": "https://github.com/meyshad/skillforge",
+  "repository": "https://github.com/meyshad/skillforge",
+  "license": "MIT",
+  "keywords": ["git", "code-review", "debugging", "tdd", "refactoring"]
+}
